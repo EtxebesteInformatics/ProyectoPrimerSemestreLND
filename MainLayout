@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>Fussion</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<!-- etiquetas cremas, CLEAR:BOTH ; OVERFLOW:HIDDEN -->  
+		<style type="text/css">
+			
+			
+			div{
+				border: 1px groove  var(--negroSuave);
+			}
+			
+			.cabecera{
+				float:left;
+				width:25%;
+				background-color: var(--naranjaFussion);
+			}
+			
+			.menu{
+				float:left;
+				width:65%;
+				background-color: var(--azulSuave);
+			}
+			
+			.contenido{
+				float:left;
+				width:50%;
+				background-color: var(--verdeSuave);
+				margin-left:15%;
+			}
+			
+			.lateral{
+				float:left;
+				width:30%;
+				background-color: var(--amarilloSuave);
+			}
+			
+			.redSocial{
+				float:left;
+				background-color: var(--verdeSuave);
+				width:90%;
+				margin-left:5%;
+				
+			}			
+			.pieDePagina{
+				float:left;
+				width:95%;
+				background-color: var(--grisSuave);
+				
+			}
+			
+			:root{
+				--naranjaFussion: #d1833a;
+				--negroSuave: #494846;
+				--grisSuave: #B8B8B8;
+				--azulSuave: #2b93ad;
+				--verdeSuave: #baffc9;
+				--amarilloSuave:#ffffba;
+			}
+		</style>
+	</head>
+	
+	<body>
+			<div class ="cabecera">
+				<p>Cabecera</p>
+				</br>
+				</br>
+				</br>
+			</div>
+			
+			<div class="menu">
+				<p>Menu</p>
+				</br>
+				</br>
+				</br>
+			</div>
+				
+			<div class="contenido">
+				<p>Contenido</p>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+			</div>
+			
+			<div class="lateral">
+				<p>Lateral</p>
+					</br>
+					</br>
+					</br>
+				
+				<div class="redSocial" >Facebook
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+				</div>
+				
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				
+				<div class="redSocial" >LinkedIn
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+				</div>
+				
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				
+					
+				<div class="redSocial" >Instagram
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+				</div>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				
+			</div>
+			
+			<div class="pieDePagina">
+				<p>Pie</p>
+				</br>
+				</br>
+				</br>
+			</div> 
+	</body>
+</html>
