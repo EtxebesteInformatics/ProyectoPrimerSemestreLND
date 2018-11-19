@@ -1,4 +1,4 @@
 # ProyectoPrimerSemestreLND
 Proyecto peluquería FUSSION
 
-El proyecto consta de tres entregas distintas, que iré dejando como ramas.
+Primera entrega, base con las distintas layouts que tendrá el programa.
