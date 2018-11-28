@@ -5,125 +5,112 @@
 		<title>Fussion</title>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 		<!-- etiquetas cremas, CLEAR:BOTH ; OVERFLOW:HIDDEN -->  
-		<style type="text/css">
-			
-			
-			div{
-				border: 1px groove  var(--negroSuave);
-			}
-			
-			.cabecera{
-				float:left;
-				width:25%;
-				background-color: var(--naranjaFussion);
-			}
-			
-			.menu{
-				float:left;
-				width:65%;
-				background-color: var(--azulSuave);
-			}
-			
-			.contenido{
-				float:left;
-				width:50%;
-				background-color: var(--verdeSuave);
-				margin-left:15%;
-			}
-			
-			.lateral{
-				float:left;
-				width:30%;
-				background-color: var(--amarilloSuave);
-			}
-			
-			.redSocial{
-				float:left;
-				background-color: var(--verdeSuave);
-				width:90%;
-				margin-left:5%;
-				
-			}			
-			.pieDePagina{
-				float:left;
-				width:95%;
-				background-color: var(--grisSuave);
-				
-			}
-			
-			:root{
-				--naranjaFussion: #d1833a;
-				--negroSuave: #494846;
-				--grisSuave: #B8B8B8;
-				--azulSuave: #2b93ad;
-				--verdeSuave: #baffc9;
-				--amarilloSuave:#ffffba;
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="estiloFussion.css">
+		
 	</head>
 	
 	<body>
-			<div class ="cabecera">
-				<p>Cabecera</p>
+			<div id="cabecera">
+				<p>Cabecera (Aqui va una imagen del logo)</p>
 				</br>
 				</br>
 				</br>
 			</div>
 			
-			<div class="menu">
-				<p>Menu</p>
-				</br>
-				</br>
-				</br>
+			<div id="menu">
+				<link rel="stylesheet" type="text/css" href="estiloMenu.css">
+				<ul>
+					<li class="nivel1"><a href="#" class="nivel1">Inicio</a>
+					<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 1<table class="falsa"><tr><td><![endif]-->
+						<ul>
+							<li><a href="#">Opción 1.1</a></li>
+							<li><a href="http://www.idplus.org">idplus.org</a></li>
+						</ul>
+					<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+					</li>
+					<li class="nivel1"><a href="#" class="nivel1">Servicios</a>
+					<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 2<table class="falsa"><tr><td><![endif]-->
+						<ul>
+							<li><a href="#">El pintalabio, toque de rime</a></li>
+							<li><a href="#">Moldeador como una artista de cine</a></li>
+							<li><a href="#">Peluquería, crema hidratante </a></li>
+							<li><a href="#">Y maquillaje que es belleza al instante</a></li>
+						</ul>
+					<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+					</li>
+					<li class="nivel1"><a href="#" class="nivel1">Reservas</a>
+					<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 3<table class="falsa"><tr><td><![endif]-->
+						<ul>
+							<li><a href="#">Opción 3.1</a></li>
+							<li><a href="#">Opción 3.2</a></li>
+							<li><a href="http://www.idplus.org">idplus.org</a></li>
+						</ul>
+					<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+					</li>
+					<li class="nivel1"><a href="#" class="nivel1">Contacto</a>
+					<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 4<table class="falsa"><tr><td><![endif]-->
+						<ul>
+							<li><a href="#">Opción 4.1</a></li>
+							<li><a href="#">Opción 4.2</a></li>
+							<li><a href="#">Opción 4.3</a></li>
+							<li><a href="http://www.idplus.org">idplus.org</a></li>
+						</ul>
+					<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+					</li>
+					<li class="nivel1"><a href="#" class="nivel1">FussionTattoo</a>
+					<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 5<table class="falsa"><tr><td><![endif]-->
+						<ul>
+							<li><a href="#">Opción 5.1</a></li>
+							<li><a href="#">Opción 5.2</a></li>
+							<li><a href="http://www.idplus.org">idplus.org</a></li>
+						</ul>
+					<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+					</li>
+				</ul>
 			</div>
 				
-			<div class="contenido">
+			<div id="contenido">
 				<p>Contenido</p>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
+
+				<div class="subContenido" >Galeria Peluqueria
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+				</div>
+				
+				
+				<div class="subContenido" >Galeria Tattoo
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+					</br>
+				</div>
 			</div>
 			
-			<div class="lateral">
+			<div id="lateral">
 				<p>Lateral</p>
 					</br>
 					</br>
 					</br>
 				
-				<div class="redSocial" >Facebook
+				<div class="contenidoLateral" >Facebook
 					</br>
 					</br>
 					</br>
@@ -132,19 +119,7 @@
 					</br>
 				</div>
 				
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				
-				<div class="redSocial" >LinkedIn
+				<div class="contenidoLateral" >LinkedIn
 					</br>
 					</br>
 					</br>
@@ -153,20 +128,8 @@
 					</br>
 				</div>
 				
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
 				
-					
-				<div class="redSocial" >Instagram
+				<div class="contenidoLateral" >Instagram
 					</br>
 					</br>
 					</br>
@@ -174,22 +137,11 @@
 					</br>
 					</br>
 				</div>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				</br>
-				
 			</div>
 			
-			<div class="pieDePagina">
+			<div id="pieDePagina">
 				<p>Pie</p>
+				</br>
 				</br>
 				</br>
 				</br>
