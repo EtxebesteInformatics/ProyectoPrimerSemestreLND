@@ -1,5 +1,5 @@
 # ProyectoPrimerSemestreLND
-Proyecto peluquería FUSSION
+FUSSION proyect.
 
 Second version, In the main layout I have updated next points:
 
