@@ -1,0 +1,61 @@
+.formularioTOP{
+	margin-top:7rem;
+}
+
+#contenido table textarea{
+	width:100%;
+	resize: none;
+	font-size:3rem;
+	border: 2px solid black;
+}
+
+.crema div{
+	width:50%;
+	float:left;
+}
+
+input{
+	font-size:3rem;
+	width:100%;
+	border: 2px solid black;
+}
+
+.areaTexto{
+	border: 2px solid black;
+}
+
+textarea{
+	width:100%;
+	font-size:3rem;
+}
+
+.checkbox{
+	border: 2px solid black;
+	background-color:white; 
+	padding:1rem;
+	overflow:hidden;
+}
+
+.checkbox div {
+	width:100%;
+}
+
+.checkbox input{
+	width:3%;
+	float:left;
+	margin-left:2rem;
+	margin-right:0.5rem;
+}
+
+.checkbox p{
+	float:left;
+	font-size:1.5rem;
+	
+	
+}
+
+.button{
+	
+	/**height:5rem;*/
+}
+
