@@ -1,0 +1,31 @@
+
+.Lista li{
+	font-size:2.5rem;
+	margin-left:3rem;
+	margin-top:5rem;
+	margin-bottom:2rem;
+	font-family:oblique;
+	color:black;
+	background-color: white;
+	border: 2px solid black;
+	padding:3rem;
+	width:70%;
+}
+
+.info{
+	float:left;
+	width:80%;
+}
+
+.precio{
+	float:left;
+	width:15%;
+}
+
+li:nth-child(odd) {
+  background: var(--negroSuave);
+}
+
+li:nth-child(even) {
+  background: var(--grisSuave);
+}

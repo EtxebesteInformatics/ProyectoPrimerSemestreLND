@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>Fussion</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="Estilos\estiloFussion.css"/>
+		<link rel="stylesheet" type="text/css" href="Estilos\estiloMenu.css"/>
+		<link rel="shortcut icon" type="image/x-icon" href="Images/icon.png"/>
+		
+	</head>
+	
+	<body>
+	
+			<div id="cabecera">
+				<img alt="logoFussion" src="Images/Logo.png"/>
+			</div>
+			
+			<div id="menu">
+				<ul>
+					<li class="nivel1">
+						<a href="paginaPrincipal.html" class="nivel1">Inicio</a>
+					</li>
+					<li class="nivel1"><a href="paginaLista.html" class="nivel1">Servicios</a>
+					<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 2<table class="falsa"><tr><td><![endif]-->
+						<ul>
+							<li><a href="paginaLista.html">Cortes clásicos</a></li>
+							<li><a href="paginaLista.html">Cortes modernos</a></li>
+							<li><a href="paginaLista.html">Barbas</a></li>
+							<li><a href="paginaLista.html">Diseños</a></li>
+						</ul>
+					<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+					</li>
+					<li class="nivel1"><a href="#" class="nivel1">Reservas</a>
+					<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 3<table class="falsa"><tr><td><![endif]-->
+						<ul>
+							<li><a href="#">Pedir cita</a></li>
+							<li><a href="#">Anular cita</a></li>
+						</ul>
+					<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+					</li>
+					<li class="nivel1"><a href="paginaSecundaria.html" class="nivel1">Contacto</a>
+					<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 4<table class="falsa"><tr><td><![endif]-->
+						<ul>
+							<li><a href="paginaSecundaria.html">Enviar sugerencia</a></li>
+						</ul>
+					<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+					</li>
+					<li class="nivel1"><a href="#" class="nivel1">FussionTattoo</a>
+					<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 5<table class="falsa"><tr><td><![endif]-->
+						<ul>
+							<li><a href="#">Artístico</a></li>
+							<li><a href="#">Enmascaro</a></li>
+							<li><a href="#">Estético</a></li>
+							<li><a href="#">Tatuadores</a></li>
+						</ul>
+					<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+					</li>
+				</ul>
+			</div>
+				
+			<div id="contenido">
+			
+				<div class="subContenido" >
+					<div class="contenedor">
+						<img src="Images/Modelos/PeluqueriaPeinados/pelu11.jpg" alt="Modelo Peinado"/>
+						<p>Cortes clásicos</p>
+					</div>
+					
+					<div class="contenedor">
+							<img src="Images/Modelos/PeluqueriaPeinados/pelu31.jpg" alt="Modelo Peinado"/>
+							<p>Cortes modernos</p>
+					</div>
+					
+					<div class="contenedor">
+							<img src="Images/Modelos/PeluqueriaPeinados/pelu21.jpg" alt="Modelo Peinado"/>
+							<p>Barbas</p>
+					</div>
+					
+					<div class="contenedor">
+							<img src="Images/Modelos/PeluqueriaPeinados/pelu41.jpg" alt="Modelo Peinado"/>
+							<p>Diseños</p>
+					</div>
+					
+				</div>
+					
+				<div class="subContenido" >
+					<div class="contenedor">
+						<img src="Images/Modelos/Tattooes/tattoo11.jpg" alt="Modelo tattoo"/>
+						<p>Artístico</p>
+					</div>
+					
+					<div class="contenedor">
+							<img src="Images\Modelos\TattooServicios\ocultar.jpg" alt="Modelo tattoo"/>
+							<p>Enmascaro</p>
+					</div>
+					
+					<div class="contenedor">
+							<img src="Images\Modelos\TattooServicios\belleza.jpg" alt="Modelo tattoo"/>
+							<p>Estético</p>
+					</div>
+					
+					<div class="contenedor">
+							<img src="Images\Modelos\TattooServicios\tatuador.jpg" alt="Modelo tattoo"/>
+							<p>Tatuadores</p>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div id="lateral">
+				<div class="contenidoLateral" >
+					<div class="contenedorLateral">
+						<a onclick="target='_blank'"  href="https://www.facebook.com/people/Fussionpeluqueria-Caballeros/100009875617388">
+							<img src="Images\Botones\facebook.jpg" alt="Facebook"/>
+						</a>
+					</div>
+				</div>
+				
+				<div class="contenidoLateral" >
+					<div class="contenedorLateral">
+						<a onclick="target='_blank'"  href="https://www.instagram.com/fussionpeluqueriacaballeros/">
+						<img src="Images\Botones\instagram.jpg" alt="Instagram"/>
+						</a>
+					</div>
+				</div>
+				
+				
+				<div class="contenidoLateral" >
+					<div class="contenedorLateral">
+						<a onclick="target='_blank'"  href="https://www.linkedin.com/">
+						<img src="Images\Botones\linkedin.jpg" alt="Linked in"/>
+						</a>
+					</div>
+				</div>
+				
+				<div>
+					<table class="tabla" width="100%">
+						<tr>
+							<th colspan="2">HORARIO</th>
+						</tr>
+						
+						<tr>
+							<td><strong>Lunes a viernes</strong></td>
+							<td><strong>9:30 – 19:00h</strong></td>
+						</tr>
+						<tr>
+							<td><strong>Sábado</strong></td>
+							<td><strong>9:30 – 13:30h</strong></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			
+			<div id="pieDePagina">
+			
+				<div id="subpie">
+					<div><h2>Aviso legal</h2></div>
+					<div><h2>Política de privacidad</h2></div>
+					<div><h2>Política de cookies</h2></div>
+					<div><h2>Mapa web</h2></div>
+				</div>
+				
+				<div>	
+					<h1>©Fussion Peluquería 2018</h1>			
+				</div>
+				
+				<div>
+					<p>Webpage created by: Jon Echeveste González</p>
+				</div>
+				
+
+				
+					<a href="http://validator.w3.org/check?uri=referer">
+						<img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" />
+					</a>
+				
+				
+				
+			</div> 
+	</body>
+</html>
